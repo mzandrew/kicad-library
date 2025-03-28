@@ -1,0 +1,287 @@
+(footprint "balun"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD RF transformer, 50 ohm, 4.5 to 3000Mhz, https://www.minicircuits.com/pdfs/TC1-1-13M+.pdf")
+	(tags "RF Transformer")
+	(property "Reference" "T6"
+		(at 3.048 0 -90)
+		(layer "F.SilkS")
+		(uuid "bec2d87f-c925-4257-b502-8b2f5ac022fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Transformer_1P_SS"
+		(at 0 3.475 180)
+		(layer "F.Fab")
+		(uuid "b61d8b31-65f5-4782-b212-2d40b6ac0c38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kicad-mza:balun"
+		(at 0.3 3.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1a9b13f-7dfd-4ab3-bdd5-2fb0e9915990")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "722fc271-c7da-40e5-a136-d9d8232dc9a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Transformer, single primary, split secondary"
+		(at 1.8 3.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b04acf3-92cc-4040-bc2e-4e276001c1e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.6)
+		(end -1.925 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aedde33f-537f-4c5a-aac2-2d9e16e3bf85")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ad0e37d-6c2a-429e-8c5b-0807cc19136d")
+	)
+	(fp_line
+		(start -1.925 1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "019ca9e1-b199-4b26-bcd7-becc1c0f7d0c")
+	)
+	(fp_line
+		(start -0.6 1.6)
+		(end 0.6 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "814f33a0-aa34-49b6-8a95-3ad2ec53a1f9")
+	)
+	(fp_line
+		(start 1.925 1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7a6ad10c-0bc5-4fe2-9aed-8ba13fc7eefa")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end 1.925 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "654844b7-7170-4af0-97b7-5da16cfadbd6")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6cdd84d-c6ed-425c-97fb-d8921e9b0d17")
+	)
+	(fp_line
+		(start -2.16 -2.67)
+		(end 2.16 -2.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63aad93f-3550-4923-812e-b8d6669b8c14")
+	)
+	(fp_line
+		(start -2.16 2.67)
+		(end -2.16 -2.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3ddae8d-ed98-41ad-b626-32bcb5222e9f")
+	)
+	(fp_line
+		(start 2.16 -2.67)
+		(end 2.16 2.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b91cb232-14b9-4cba-a3e9-550f1ddf94d6")
+	)
+	(fp_line
+		(start 2.16 2.67)
+		(end -2.16 2.67)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "919cdb27-bb41-4980-bef3-5d282aa6d2a0")
+	)
+	(fp_line
+		(start -1.905 1.395)
+		(end -1.905 -0.6975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0141bc53-14ba-4e92-85c8-12e0c5707f3d")
+	)
+	(fp_line
+		(start -1.2175 -1.395)
+		(end -1.905 -0.6975)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71ca54b8-aa23-4af3-88fe-79b46ed6cf87")
+	)
+	(fp_line
+		(start -1.2175 -1.395)
+		(end 1.905 -1.395)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "12d86a07-7f9b-4208-aab0-2ef53a0b749e")
+	)
+	(fp_line
+		(start 1.905 -1.395)
+		(end 1.905 1.395)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe0b8e0a-5cd6-4711-8579-e26cce485cc0")
+	)
+	(fp_line
+		(start 1.905 1.395)
+		(end -1.905 1.395)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdef57a1-9147-43af-bf36-bf3b7f2c3424")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.9 180)
+		(layer "F.Fab")
+		(uuid "3f9f6f38-bad0-4ee4-9c87-91c830bcfc28")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.27 -1.59 90)
+		(size 1.65 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "374f71bb-bf86-4c5f-b587-24a36f1635e8")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.59 90)
+		(size 1.65 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "95dbb95a-0e68-4cfc-b4ee-b2ed71b32a83")
+	)
+	(pad "3" smd roundrect
+		(at 1.27 -1.59 90)
+		(size 1.65 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "672ae781-cacb-4659-9c67-74e2454f22d5")
+	)
+	(pad "4" smd roundrect
+		(at 1.27 1.59 90)
+		(size 1.65 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "fac3c8e5-5e38-4a46-8b33-f3e12cc3ec25")
+	)
+	(pad "6" smd roundrect
+		(at -1.27 1.59 90)
+		(size 1.65 0.76)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "feb9e858-1510-45b5-aa57-38b493b44713")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Transformer_SMD.3dshapes/Transformer_MiniCircuits_AT224-1A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

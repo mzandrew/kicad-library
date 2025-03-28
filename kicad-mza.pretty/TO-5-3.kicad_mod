@@ -1,0 +1,261 @@
+(footprint "TO-5-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "TO-5-2_Window, Window")
+	(tags "TO-5-2_Window Window")
+	(property "Reference" "D4"
+		(at 0 -5.82 0)
+		(layer "F.SilkS")
+		(uuid "7dc80950-e1ad-47f7-8d2f-ddf1ff22ab34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "S5973"
+		(at 0 5.82 0)
+		(layer "F.Fab")
+		(uuid "b7e8cedd-93a8-4386-8f46-207ef0eef29b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_THT:TO-5-2_Window"
+		(at -1.27 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "487b8cc4-e136-4e9d-ac17-0153ae200650")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://techwww.in.tu-clausthal.de/site/Dokumentation/Dioden/Fotodioden/BPW21-Fotodiode.pdf"
+		(at -1.27 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c49bce-c072-47f7-953b-7d46876836ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Silicon Photodiode for the visible spectral range, TO-5 package"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c42bac15-48b1-47b7-9167-41257ceba30a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.665856 -3.888039)
+		(end -3.774902 -2.997084)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cce8fd3-2589-4151-a7fd-d818e3b042c5")
+	)
+	(fp_line
+		(start -3.888039 -4.665856)
+		(end -4.665856 -3.888039)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e9a11b5-4175-457b-8ec8-edc6bde34086")
+	)
+	(fp_line
+		(start -2.997084 -3.774902)
+		(end -3.888039 -4.665856)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33ab50c4-5cc1-4a2c-af18-7b3a1948fa17")
+	)
+	(fp_arc
+		(start -2.997084 -3.774902)
+		(mid 3.408125 3.408384)
+		(end -3.774674 -2.997371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90f1900c-8b3c-4a5b-a870-d880a52ff727")
+	)
+	(fp_line
+		(start -4.95 -4.95)
+		(end -4.95 4.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab44943a-c915-4ee2-a22b-a4c6c306f7d6")
+	)
+	(fp_line
+		(start -4.95 4.95)
+		(end 4.95 4.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e75966c2-fbfb-4e8e-84b0-076a56c2f802")
+	)
+	(fp_line
+		(start 4.95 -4.95)
+		(end -4.95 -4.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97d5dea0-ed5c-4ae6-976e-4e61e7e76f2c")
+	)
+	(fp_line
+		(start 4.95 4.95)
+		(end 4.95 -4.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "214f6cc8-c0ce-451d-bf64-0f6fa9eaf32f")
+	)
+	(fp_line
+		(start -4.419621 -3.81151)
+		(end -3.61352 -3.005408)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2a3dfa1-bc49-40e0-8e13-916f350e2eee")
+	)
+	(fp_line
+		(start -3.81151 -4.419621)
+		(end -4.419621 -3.81151)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "20f06e0d-f210-4994-bc3e-973d612fe4f8")
+	)
+	(fp_line
+		(start -3.005408 -3.61352)
+		(end -3.81151 -4.419621)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bcbb097-8e46-4d53-b9df-d2b4c9940fa5")
+	)
+	(fp_arc
+		(start -3.005408 -3.61352)
+		(mid 3.323443 3.323361)
+		(end -3.613594 -3.005319)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d15f41b9-1a74-4089-8862-8305612a8120")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c6059cb9-0701-48b8-9470-f9d65847fda1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.25 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "3c84f55f-1f42-44e7-9ed0-bca0ed7b4a76")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.82 0)
+		(layer "F.Fab")
+		(uuid "81c280a4-1100-4d76-88f6-4f52347999b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a5e157c8-f963-4d27-b03f-a9cb833676d7")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.54)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31882aad-04af-4a3c-a8bc-4fc640305ac5")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a886029-2a69-4a7c-b1fa-5a0696db9ea0")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-5-2_Window.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

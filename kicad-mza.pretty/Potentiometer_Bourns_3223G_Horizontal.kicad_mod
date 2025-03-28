@@ -1,0 +1,165 @@
+(footprint "Potentiometer_Bourns_3223G_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Bourns 3224G, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
+	(tags "Potentiometer horizontal Bourns 3224G")
+	(property "Reference" "R2"
+		(at 0 3.25 180)
+		(layer "F.SilkS")
+		(uuid "c9775661-843c-44c0-800d-851f1ed1c5af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "10k"
+		(at 0 3.65 180)
+		(layer "F.Fab")
+		(uuid "71ae5536-8d64-4bc8-a096-9475cbdcaf02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_3224G_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5872395-6041-44e9-b6c6-3118f316c65b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b6fdc0e-2142-4168-a827-b6ee3f60b9ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da1b9de8-7677-4e7d-90e8-db788abd94f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "731aa002-fef9-401b-8d95-30affbcc326a")
+	)
+	(fp_rect
+		(start -2.75 -0.5)
+		(end -1.25 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "7f5ca33b-5119-44ee-84be-653558441ab1")
+	)
+	(fp_rect
+		(start -2.0254 1)
+		(end -1.5 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "093ba419-b8b8-48d1-9ef5-1be1b983df69")
+	)
+	(fp_rect
+		(start 1.25 -1.75)
+		(end 2.75 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "f23e7e1b-f741-4151-8ef2-278315225311")
+	)
+	(fp_rect
+		(start 1.25 1)
+		(end 2.75 1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "3437ca14-592e-4670-b903-1a0df8e84e7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2a4a3d85-1540-4f3a-8a74-1c0f05ca2b56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 2.2 -1.4)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7f50f663-5c23-4859-a90b-bdbf89398516")
+	)
+	(pad "2" smd rect
+		(at -2.2 0)
+		(size 2 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b1969016-fe87-41c6-9f3e-437f279e681b")
+	)
+	(pad "3" smd rect
+		(at 2.2 1.4)
+		(size 2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9626bc6d-1eb2-42a7-98a6-0f31e2e99ee8")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3224G_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
