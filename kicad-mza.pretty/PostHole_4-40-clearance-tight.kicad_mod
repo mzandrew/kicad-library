@@ -1,0 +1,99 @@
+(footprint "PostHole_4-40-clearance-tight"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, M2.5")
+	(tags "mounting hole 2.7mm m2.5")
+	(property "Reference" "m2"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ee7c3f6f-c1f9-467e-84d1-ab1c4f2230e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 0.2 4.425 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78b8a609-e546-4401-9e3c-d56337d85ffe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kicad-mza:PostHole_6.05mm"
+		(at 0.725 7.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4b9ddb1-145f-4df2-a24a-95f6eb7a5f51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e150f90-2e0e-402f-9950-1b4dc86a29f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0.225 9.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e1b6461-aec7-45d5-9925-3e1fa11c337b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "1997f889-6628-4827-9b5a-27c4af93c385")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b32c2bfc-2ab2-43fa-ada2-d549990a883a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.25 7.25)
+		(drill 2.794)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85800df3-4d86-4860-bf0e-42f82a82ef23")
+	)
+)

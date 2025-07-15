@@ -1,0 +1,104 @@
+(footprint "PostHole_6.05mm-slider"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, M2.5")
+	(tags "mounting hole 2.7mm m2.5")
+	(property "Reference" "m2"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cc72b136-eb8a-4ca1-87d4-563a610c510e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 4.525 0.125 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab388683-aa5f-441e-a003-a1b87bc8e5ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kicad-mza:PostHole_6.05mm"
+		(at 0.725 7.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57b33dde-a710-4a99-ba03-6f4c9a422588")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4498e4c-9c7d-403d-a343-644b7561eafb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0.225 9.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2f6ee6bc-4541-47bf-94a8-0f1a13e6f933")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "fe43acca-4c65-4a37-b1f8-77523c91d52c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.54 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f04acd67-cff9-44e0-9eef-91fee842a7c2")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 7.05 13.1)
+		(drill oval 6.05 12.1)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "d02bf7f0-400e-4879-b432-4a274aff5fe1")
+	)
+)
